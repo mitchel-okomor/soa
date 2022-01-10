@@ -179,11 +179,12 @@ button {
   margin-top: 100px;
 }
 .submit-email-form {
-  width: fit-content;
+  width: 320px;
 }
 .submit-email-form > input {
   padding: 7px 14px;
   border-radius: 20px;
+  width: 100%;
 }
 
 .home-slider {
@@ -201,4 +202,16 @@ button {
   width: 150px;
   border-radius: 10px;
   background-color: #e6fff1;
+}
+.slider-section {
+  margin-top: 50px;
+}
+.home-button {
+  margin-top: 50px;
+}
+.nav-link:hover {
+  border-bottom: #ffbc01 4px solid;
+}
+.nav-link.active {
+  border-bottom: #ffbc01 4px solid;
 }

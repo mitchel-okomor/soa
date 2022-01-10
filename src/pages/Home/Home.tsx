@@ -24,12 +24,15 @@ function Home() {
           <div className='col-6'></div>
         </div>
       </section>
-      <section className='home-slider cont'>
-        <div>
-          <SimpleSlider />
+      <section className='slider-section'>
+        <div className='row'>
+          <div className='col-4'></div>
+          <div className='col-8'>
+            <SimpleSlider />
+          </div>
         </div>
       </section>
-      <section className='home-slider cont'>
+      <section className='home-button'>
         <div className=''>
           <h4>
             <span>

@@ -18,8 +18,8 @@ function App() {
   return (
     <div className='App'>
       <Suspense fallback={<div>is loading</div>}>
-        <Navbar />
         <Router>
+          <Navbar />
           <Switch>{appRoute}</Switch>
         </Router>
       </Suspense>
