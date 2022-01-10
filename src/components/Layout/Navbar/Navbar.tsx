@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../../button/Button';
 import Icon from '../../SOAIcon/Icon';
 
 function Navbar() {

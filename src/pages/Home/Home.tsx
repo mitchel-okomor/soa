@@ -1,5 +1,6 @@
 import React from 'react';
 import EmailInput from '../../components/EmailInput/EmailInput';
+import SimpleSlider from '../../components/Slider/Slider';
 import Icon from '../../components/SOAIcon/Icon';
 
 function Home() {
@@ -24,7 +25,9 @@ function Home() {
         </div>
       </section>
       <section className='home-slider cont'>
-        <div>Home SLider</div>
+        <div>
+          <SimpleSlider />
+        </div>
       </section>
       <section className='home-slider cont'>
         <div className=''>
