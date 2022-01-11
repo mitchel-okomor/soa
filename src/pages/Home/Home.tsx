@@ -2,6 +2,8 @@ import React from 'react';
 import EmailInput from '../../components/EmailInput/EmailInput';
 import SimpleSlider from '../../components/Slider/Slider';
 import Icon from '../../components/SOAIcon/Icon';
+import Item from '../../components/HomeSLiderItem/Item';
+import { sliderData } from './sliderData';
 
 function Home() {
   return (
@@ -26,9 +28,9 @@ function Home() {
       </section>
       <section className='slider-section'>
         <div className='row'>
-          <div className='col-4'></div>
-          <div className='col-8'>
-            <SimpleSlider />
+          <div className='col-sm-4 col-xs-12'></div>
+          <div className='col-sm-8 col-xs-12'>
+            <SimpleSlider Component={Item} data={sliderData} />
           </div>
         </div>
       </section>

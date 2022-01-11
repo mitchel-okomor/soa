@@ -3,38 +3,24 @@ import Slider from 'react-slick';
 import Item from '../HomeSLiderItem/Item';
 
 type SliderProp = {
-  elementArr: Array<HTMLElement>;
+  Component: any;
+  data: any;
 };
 
-export default function SimpleSlider() {
+export default function SimpleSlider({ Component, data }: SliderProp) {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true
   };
   return (
     <Slider {...settings}>
-      <div>
-        <Item />
-      </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
+      {data.map((item: any) => {
+        return <Component data={item} key={item.id} />;
+      })}
     </Slider>
   );
 }
