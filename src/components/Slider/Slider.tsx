@@ -1,6 +1,5 @@
 import React from 'react';
 import Slider from 'react-slick';
-import Item from '../HomeSLiderItem/Item';
 
 type SliderProp = {
   Component: any;
