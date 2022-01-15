@@ -4,7 +4,7 @@ function MoveToTop() {
   return (
     <div className='move-to-top'>
       <a href='/#home'>
-        <i className='fa-arrow-up'></i>
+        <i className='fa fa-angle-up'></i>
       </a>
     </div>
   );
