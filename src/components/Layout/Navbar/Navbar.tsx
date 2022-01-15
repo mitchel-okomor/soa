@@ -23,24 +23,24 @@ function Navbar() {
         <div className='collapse navbar-collapse' id='navbarText'>
           <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
             <li className='nav-item '>
-              <NavLink className='nav-link' to='/mint'>
+              <a className='nav-link' href='#mint'>
                 Mint NFT
-              </NavLink>
+              </a>
             </li>
             <li className='nav-item mx-2'>
-              <NavLink className='nav-link' to='/collection'>
+              <a className='nav-link' href='#collections'>
                 Collection
-              </NavLink>
+              </a>
             </li>
             <li className='nav-item mx-2'>
-              <NavLink className='nav-link' to='/about'>
-                About
-              </NavLink>
-            </li>
-            <li className='nav-item mx-2'>
-              <NavLink className='nav-link' to='/explore'>
+              <a className='nav-link' href='#explore'>
                 Explore NFT
-              </NavLink>
+              </a>
+            </li>
+            <li className='nav-item mx-2'>
+              <a className='nav-link' href='#about'>
+                About
+              </a>
             </li>
           </ul>
           <div className='right mx-4'>

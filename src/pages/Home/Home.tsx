@@ -3,14 +3,20 @@ import EmailInput from '../../components/EmailInput/EmailInput';
 import SimpleSlider from '../../components/Slider/Slider';
 import Icon from '../../components/SOAIcon/Icon';
 import Item from '../../components/HomeSLiderItem/Item';
+import Mint from '../Mint/Mint';
 import { sliderData } from './sliderData';
+import Collections from '../Collections/Collections';
+import Explore from '../Explore/Explore';
+import About from '../About/About';
+import MoveToTop from '../../components/MoveToTop/MoveToTop';
 
 function Home() {
   return (
-    <main className='container'>
-      <section className='hero-section'>
+    <main className='container pb-4'>
+      <MoveToTop />
+      <section className='hero-section' id='home'>
         <h1 className='hero-header'>
-          Mint Your <br /> Own <span className='text-white'>NFT</span>
+          Spirits <br /> Of <span className='text-white'>Africa</span>
         </h1>
       </section>
       <section className='email-contact-section'>
@@ -18,8 +24,8 @@ function Home() {
           <div className='col-6'>
             <div className='row'>
               <EmailInput />
-              <a className='pagebtn-2' href='/contact'>
-                Contact Us
+              <a className='pagebtn-2 text-uppercase' href='/#submit'>
+                Submit
               </a>
             </div>
           </div>
@@ -46,6 +52,18 @@ function Home() {
             eiusmod tempor incididunt ut labore.
           </h4>
         </div>
+      </section>
+      <section id='mint'>
+        <Mint />
+      </section>
+      <section id='collections'>
+        <Collections />
+      </section>
+      <section id='explore'>
+        <Explore />
+      </section>
+      <section className='my-4' id='about'>
+        <About />
       </section>
     </main>
   );
