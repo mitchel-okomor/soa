@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from '../../SOAIcon/Icon';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
