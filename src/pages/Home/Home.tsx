@@ -12,14 +12,17 @@ import MoveToTop from '../../components/MoveToTop/MoveToTop';
 
 function Home() {
   return (
-    <main className='container pb-4'>
+    <main className=' pb-4'>
       <MoveToTop />
-      <section className='hero-section' id='home'>
+      <section id='mint'>
+        <Mint />
+      </section>
+      {/* <section className='hero-section' id='home'>
         <h1 className='hero-header'>
           Spirits <br /> Of <span className='text-white'>Africa</span>
         </h1>
-      </section>
-      <section className='email-contact-section'>
+      </section> */}
+      <section className='container email-contact-section'>
         <div className='row'>
           <div className='col-6'>
             <div className='row'>
@@ -32,7 +35,10 @@ function Home() {
           <div className='col-6'></div>
         </div>
       </section>
-      <section className='slider-section'>
+      <section id='collections'>
+        <Collections />
+      </section>
+      <section className='container slider-section'>
         <div className='row'>
           <div className='col-sm-4 col-xs-12'></div>
           <div className='col-sm-8 col-xs-12'>
@@ -40,7 +46,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className='home-button'>
+      <section className='container home-button'>
         <div className=''>
           <h4>
             <span>
@@ -53,13 +59,8 @@ function Home() {
           </h4>
         </div>
       </section>
-      <section id='mint'>
-        <Mint />
-      </section>
-      <section id='collections'>
-        <Collections />
-      </section>
-      <section id='explore'>
+
+      <section id='explore' className='container'>
         <Explore />
       </section>
       <section className='my-4' id='about'>
