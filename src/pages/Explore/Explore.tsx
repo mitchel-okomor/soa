@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import image from '../../assets/images/roadmap.jpg';
 
 function Explore() {
   return (
     <div>
-      <div className=' roadmap'>
-        <img width={'20%'} src={image} alt='mint' />
+      <div className=' roadmap mt-4'>
+        <h2 className='roadmap-header mb-4'>ROADMAP</h2>
         <div className=' mt-3'>
           <div className='row'>
             <div className='col-1'></div>

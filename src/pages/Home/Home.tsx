@@ -1,5 +1,4 @@
 import React from 'react';
-import EmailInput from '../../components/EmailInput/EmailInput';
 import SimpleSlider from '../../components/Slider/Slider';
 import Icon from '../../components/SOAIcon/Icon';
 import Item from '../../components/HomeSLiderItem/Item';
@@ -14,7 +13,7 @@ function Home() {
   return (
     <main className=' pb-4'>
       <MoveToTop />
-      <section id='mint'>
+      <section id='mint' className='container'>
         <Mint />
       </section>
       {/* <section className='hero-section' id='home'>
@@ -22,19 +21,7 @@ function Home() {
           Spirits <br /> Of <span className='text-white'>Africa</span>
         </h1>
       </section> */}
-      <section className='container email-contact-section'>
-        <div className='row'>
-          <div className='col-6'>
-            <div className='row'>
-              <EmailInput />
-              <a className='pagebtn-2 text-uppercase' href='/#submit'>
-                Submit
-              </a>
-            </div>
-          </div>
-          <div className='col-6'></div>
-        </div>
-      </section>
+      <section className='container email-contact-section'></section>
       <section id='collections'>
         <Collections />
       </section>
