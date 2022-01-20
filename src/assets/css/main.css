@@ -191,13 +191,13 @@ button {
 }
 .spirit-intro {
   font-family: 'zilap africa';
-  font-weight: 900;
-  font-size: 8rem;
+  font-weight: 700;
+  font-size: 7rem;
   color: var(--primary-color);
   line-height: 10rem;
 }
 .spirit-intro > span {
-  font-size: 11rem;
+  font-size: 9rem;
 }
 .hero-section {
   margin-top: 50px;
@@ -248,6 +248,48 @@ button {
   background-color: var(--primary-color);
   padding: 10px 18px;
   border-radius: 50%;
+}
+
+.sango {
+  position: relative;
+  z-index: 2;
+}
+
+.sango .back-text {
+  position: absolute;
+  inset: 17rem 23rem auto auto;
+  z-index: -1;
+  font-family: 'zilap africa';
+  color: var(--primary-color);
+  font-size: 13rem;
+  font-weight: 800;
+}
+.sango .front-text {
+  position: absolute;
+  inset: auto auto 8rem 27rem;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sango-card {
+  margin-right: 2rem;
+  font-size: 1rem;
+  width: 8rem;
+  height: 8rem;
+  background-color: var(--primary-color);
+  border-radius: 0.6rem;
+  display: grid;
+  place-items: center;
+}
+.sango-card h2 {
+  font-weight: 800;
+  font-size: x-large;
+  color: #000000 !important;
+}
+.sango-card p {
+  font-weight: 700;
+  color: #000000 !important;
 }
 .roadmap-header {
   font-family: 'zilap africa';
