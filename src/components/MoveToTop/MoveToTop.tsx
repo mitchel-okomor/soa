@@ -2,11 +2,11 @@ import React from 'react';
 
 function MoveToTop() {
   return (
-    <div className='move-to-top'>
-      <a href='/#home'>
-        <i className='fa fa-angle-up'></i>
-      </a>
-    </div>
+    <a href='/#mint'>
+      <div className='move-to-top' style={{ cursor: 'pointer' }}>
+        <i className='fa fa-angle-up' style={{ fontSize: '2rem' }}></i>
+      </div>
+    </a>
   );
 }
 
