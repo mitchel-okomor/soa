@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /*-- Google Font --*/
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
 
 /*chips*/
 @import 'chip.css';
@@ -9,6 +8,10 @@
 @font-face {
   font-family: 'Zilap Africa';
   src: url('../fonts/Zilap.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Andreas';
+  src: url('../fonts/Andreas.ttf') format('truetype');
 }
 
 :root {
@@ -280,8 +283,9 @@ button {
 .sango-card {
   margin-right: 2rem;
   font-size: 1rem;
-  width: 8rem;
-  height: 8rem;
+  font-family: 'Andreas';
+  width: 7rem;
+  height: 7rem;
   background-color: var(--primary-color);
   border-radius: 0.6rem;
   display: grid;
