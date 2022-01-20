@@ -257,7 +257,9 @@ button {
 
 .sango .back-text {
   position: absolute;
-  inset: 17rem 23rem auto auto;
+  top: 20rem;
+  text-align: center;
+  width: 100%;
   z-index: -1;
   font-family: 'zilap africa';
   color: var(--primary-color);
@@ -266,7 +268,10 @@ button {
 }
 .sango .front-text {
   position: absolute;
-  inset: auto auto 8rem 27rem;
+  bottom: 8rem;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
   z-index: 3;
   display: flex;
   flex-wrap: wrap;
