@@ -29,8 +29,8 @@ function Home() {
       </section>
       <section className='container slider-section'>
         <div className='row'>
-          <div className='col-sm-4 col-xs-12'></div>
-          <div className='col-sm-8 col-xs-12'>
+          <div className='col-sm-2 col-xs-12'></div>
+          <div className='col-sm-10 col-xs-12'>
             <SimpleSlider Component={Item} data={sliderData} />
           </div>
         </div>
