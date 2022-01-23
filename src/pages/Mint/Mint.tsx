@@ -6,8 +6,9 @@ function Mint() {
     <div className='row spirits'>
       <div className='col-sm-8'>
         <div className='spirit-intro'>
-          spirits of <span>africa</span>
+          spirits of
         </div>
+		<div className='spirit-intro2'>africa</div>
         <div className='mt-3'>
           <a href='/#' target='_blank'>
             <FiInstagram
