@@ -28,7 +28,7 @@ function Collections() {
       <div className='sango-image'>
         <img width={'50%'} src={image} alt='mint' />
       </div>
-      <div className='front-text'>
+      <div className='front-cards'>
         {cardData.map((item) => (
           <Card name={item.name} description={item.description} />
         ))}
