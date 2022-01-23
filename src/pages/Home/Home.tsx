@@ -13,8 +13,10 @@ function Home() {
   return (
     <main className=' pb-4'>
       <MoveToTop />
-      <section id='mint' className='container'>
-        <Mint />
+      <section className='mint' id='mint'>
+        <div className='container'>
+          <Mint />
+        </div>
       </section>
       {/* <section className='hero-section' id='home'>
         <h1 className='hero-header'>

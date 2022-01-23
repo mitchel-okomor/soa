@@ -44,10 +44,14 @@ body {
 }
 
 body {
-  background-color: #000000;
-  background-image: url('../images/background.jpg');
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 1%,
+    rgba(19, 19, 19, 0.9739223008745173) 59%
+  );
+
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   line-height: 24px;
   font-size: 14px;
   font-style: normal;
@@ -183,6 +187,9 @@ button {
   background-color: var(--accent-color) !important;
   border-color: var(--accent-color);
 }
+.mint {
+  background-image: url('../images/background.jpg');
+}
 .hero-header {
   color: var(--primary-color);
   font-weight: bold;
@@ -196,7 +203,7 @@ button {
 .spirit-intro {
   font-family: 'zilap africa';
   font-weight: 700;
-  font-size: 7rem;
+  font-size: 6.25rem;
   color: var(--primary-color);
   line-height: 10rem;
 }
