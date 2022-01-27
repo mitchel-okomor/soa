@@ -23,7 +23,6 @@ function Home() {
           Spirits <br /> Of <span className='text-white'>Africa</span>
         </h1>
       </section> */}
-      <section className='container email-contact-section'></section>
       <section id='collections'>
         <Collections />
       </section>
