@@ -15,5 +15,8 @@ url: '/' },
 		image:soa3,
 		url: '/' },
 		{id:'4',
-		image:soa2}
+		image:soa2},
+		{id:'3',
+	image:soa1,
+	url: '/' },
 ]
