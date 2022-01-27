@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 function Explore() {
   return (
     <div>
-      <div className=' roadmap mt-4'>
+      <div className='roadmap mt-4'>
         <h2 className='roadmap-header mb-4'>ROADMAP</h2>
         <div className=' mt-3'>
           <div className='row'>
             <div className='col-1'></div>
-            <div className='col-11 roadmap-contents'>
+            <div className='col-11 roadmap-contents journey'>
               <h3> Spirits of Africa - The Journey</h3>
               <p>
                 The future is brighter than ever for the African youths. In this
@@ -90,7 +90,7 @@ function Explore() {
           <div className='row'>
             <div className='col-1'></div>
 
-            <div className='col-11 roadmap-contents'>
+            <div className='col-11 roadmap-contents benefits'>
               <h3>Post Mint Benefits:</h3>
               <p>
                 After minting, Shango Holders will have access to secured
