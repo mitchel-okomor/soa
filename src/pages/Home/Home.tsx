@@ -42,7 +42,7 @@ function Home() {
               <Icon />{' '}
             </div>
           </div>
-          <div className='col-11'>
+          <div className='col-11 goal'>
             <p>
               Spirits of Africa is an NFT project inspired by bringing Africa
               closer to the world by showcasing African mythology. SoA was

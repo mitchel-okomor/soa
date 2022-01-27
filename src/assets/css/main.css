@@ -58,6 +58,13 @@ body {
   overflow-x: hidden;
   margin-top: 0px;
 }
+
+@media only screen and (min-width: 767px) {
+  .roadmap-contents p,
+  .goal p {
+    width: 80%;
+  }
+}
 @media only screen and (max-width: 767px) {
   body {
   }
@@ -129,8 +136,8 @@ h6 {
   line-height: 14px;
 }
 
-p:last-child {
-  margin-bottom: 0;
+p {
+  font-size: large;
 }
 
 a,
@@ -184,6 +191,7 @@ button {
 }
 .mint {
   background-image: url('../images/background.jpg');
+  background-size: cover;
 }
 .hero-header {
   color: var(--primary-color);
@@ -324,6 +332,7 @@ button {
   padding-left: 2.5rem;
   margin-bottom: 2.5rem;
 }
+
 .journey,
 .benefits {
   border: none;
@@ -350,4 +359,7 @@ p {
 }
 .head-shot h5 {
   color: #6c757d;
+}
+#explore {
+  margin-top: 5rem;
 }
