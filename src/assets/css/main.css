@@ -68,10 +68,7 @@ body {
 @media only screen and (max-width: 767px) {
   body {
   }
-  .spirit-intro {
-    font-size: 20vw !important;
-    line-height: 12vh !important;
-  }
+
   .spirit-intro span {
     font-size: 25vw !important;
   }
@@ -95,12 +92,12 @@ body {
   .spirit-intro {
     font-weight: 700;
     font-size: 4rem !important;
-    line-height: 1.5rem !important;
+    line-height: 1.1rem !important;
     padding-left: 0rem !important;
   }
   .spirit-intro2 {
     font-size: 4rem !important;
-    line-height: 10rem;
+    line-height: 7rem !important;
     font-weight: 700;
   }
   .sango .back-text {
@@ -147,6 +144,7 @@ body {
 
   .spirits {
     padding-bottom: 3rem !important;
+    padding-top: 3rem !important;
   }
   .home-slider-item {
     height: 160px !important;
@@ -334,6 +332,7 @@ button {
   background-color: var(--primary-color);
   padding: 10px 18px;
   border-radius: 50%;
+  z-index: 1000;
 }
 
 .sango {
