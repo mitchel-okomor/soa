@@ -148,6 +148,12 @@ body {
   .spirits {
     padding-bottom: 3rem !important;
   }
+  .home-slider-item {
+    height: 160px !important;
+    width: 190px !important;
+    border-radius: 10px;
+    background-color: transparent;
+  }
 }
 
 h1,

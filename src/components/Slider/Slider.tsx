@@ -10,10 +10,20 @@ export default function SimpleSlider({ Component, data }: SliderProp) {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      }
+    ]
   };
   return (
     <Slider {...settings}>

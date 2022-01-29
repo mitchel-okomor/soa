@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  RiTelegramLine,
-  RiDiscordLine,
-  RiTwitchLine,
-  RiTwitterLine
-} from 'react-icons/ri';
-import { BsTelegram, BsDiscord, BsTwitter } from 'react-icons/bs';
+import { RiTelegramLine, RiDiscordLine, RiTwitterLine } from 'react-icons/ri';
 
 function Mint() {
   return (
