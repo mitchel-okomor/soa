@@ -46,7 +46,6 @@ body {
 body {
   background: rgb(0, 0, 0);
   background: linear-gradient(45deg, #000 72%, hsla(0, 0%, 7%, 0.974));
-  background-size: cover;
   line-height: 24px;
   font-size: 14px;
   font-style: normal;
@@ -259,7 +258,7 @@ button {
 }
 .mint {
   background-image: url('../images/background.jpg');
-  background-size: auto;
+  background-size: cover;
 }
 .hero-header {
   color: var(--primary-color);
