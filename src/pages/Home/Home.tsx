@@ -7,7 +7,7 @@ import { sliderData } from './sliderData';
 import Collections from '../Collections/Collections';
 import Explore from '../Explore/Explore';
 import About from '../About/About';
-import MoveToTop from '../../components/MoveToTop/MoveToTop';
+import MoveToTop from '../../components/MoveToTop/ScrollToTop';
 
 function Home() {
   return (
@@ -37,9 +37,8 @@ function Home() {
       <section className='container home-button mb-4'>
         <div className='row'>
           <div className='col-1'>
-            {' '}
             <div className='home-buttom-icon'>
-              <Icon />{' '}
+              <Icon />
             </div>
           </div>
           <div className='col-11 goal'>

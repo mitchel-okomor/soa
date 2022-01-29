@@ -9,7 +9,7 @@ function Navbar() {
         <Link className='navbar-brand' to='/'>
           <Icon />
         </Link>
-        <button
+        {/* <button
           className='navbar-toggler'
           type='button'
           data-bs-toggle='collapse'
@@ -48,7 +48,7 @@ function Navbar() {
               Login
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

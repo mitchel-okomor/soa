@@ -1,23 +1,27 @@
 import React from 'react';
-import { FiInstagram, FiTwitter, FiFacebook } from 'react-icons/fi';
+import {
+  RiTelegramLine,
+  RiDiscordLine,
+  RiTwitchLine,
+  RiTwitterLine
+} from 'react-icons/ri';
+import { BsTelegram, BsDiscord, BsTwitter } from 'react-icons/bs';
 
 function Mint() {
   return (
     <div className='row spirits'>
       <div className='col-sm-8'>
-        <div className='spirit-intro'>
-          spirits of
-        </div>
-		<div className='spirit-intro2'>africa</div>
+        <div className='spirit-intro'>spirits of</div>
+        <div className='spirit-intro2'>africa</div>
         <div className='mt-3'>
           <a href='/#' target='_blank'>
-            <FiInstagram
+            <RiTelegramLine
               style={{ fontSize: '3rem', color: 'var(--primary-color)' }}
             />
           </a>
           <a href='/#' target='_blank'>
             {' '}
-            <FiTwitter
+            <RiDiscordLine
               style={{
                 fontSize: '3rem',
                 color: 'var(--primary-color)',
@@ -26,7 +30,7 @@ function Mint() {
             />
           </a>
           <a href='/#' target='_blank'>
-            <FiFacebook
+            <RiTwitterLine
               style={{
                 fontSize: '3rem',
                 color: 'var(--primary-color)',

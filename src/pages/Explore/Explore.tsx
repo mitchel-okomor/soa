@@ -71,22 +71,7 @@ function Explore() {
               </p>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-1'></div>
 
-            <div className='col-11 roadmap-contents'>
-              <h3> Phase 2: "Walking With The Spirits"</h3>
-              <p>
-                During this time, the whitelists will be full, presale and
-                public launch will be scheduled, mint prices, project details
-                and more will all be confirmed, now we we can walk with the
-                Spirits! In this phase, minting will happen. As we get closer to
-                selling out, future plans will start rolling out and
-                implementation will start, and at this stage we get to realise,
-                that there is more for the Youths Of Africa.
-              </p>
-            </div>
-          </div>
           <div className='row'>
             <div className='col-1'></div>
 
@@ -99,20 +84,7 @@ function Explore() {
               </p>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-1'></div>
 
-            <div className='col-11 roadmap-contents'>
-              <h3> Phase 4: "I Am A God"</h3>
-              <p>
-                After all 3,333 Sango Collection is minted out, then we will
-                begin to roll out premium artwork for different African gods.
-                This will not be a collection, they are single artworks of an
-                African Gods. While this is going on, our African Youth
-                Empowerment plans will kick off also.
-              </p>
-            </div>
-          </div>
           <div className='row'>
             <div className='col-1'></div>
 
