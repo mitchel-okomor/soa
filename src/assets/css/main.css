@@ -223,7 +223,58 @@ button {
 .navbar-light .navbar-text {
   color: var(--text-color) !important;
 }
+.navbar-light .navbar-toggler {
+  border-color: 0;
+}
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: var(--primary-color);
+  display: block;
+  transition: all 0.4s;
+}
+
+.navbar-toggler .middle-bar {
+  margin: 5px auto;
+  opacity: 0.01;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+.nav-item {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--primary-color) !important;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-text {
+  color: var(--primary-color) !important;
+}
 .pagebtn {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -252,10 +303,6 @@ button {
   color: var(--accent-color);
 }
 
-.navbar-light .navbar-toggler {
-  background-color: var(--accent-color) !important;
-  border-color: var(--accent-color);
-}
 .mint {
   background-image: url('../images/background.jpg');
   background-size: cover;
