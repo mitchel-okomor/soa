@@ -5,9 +5,13 @@ function Mint() {
   return (
     <div className="row spirits">
       <div className="col-sm-8">
-        <div className="spirit-intro">spirits of</div>
-        <div className="spirit-intro2">africa</div>
-        <div className="mt-3">
+        <div className="spirit-intro" data-aos={'zoom-in-left'}>
+          spirits of
+        </div>
+        <div className="spirit-intro2" data-aos={'zoom-in-right'}>
+          africa
+        </div>
+        <div className="mt-3" data-aos={'slide-up'}>
           <a
             href="https://t.me/Spiritsofafrica"
             rel="noreferrer"

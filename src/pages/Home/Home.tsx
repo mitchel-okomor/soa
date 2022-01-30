@@ -11,10 +11,10 @@ import MoveToTop from '../../components/MoveToTop/ScrollToTop';
 
 function Home() {
   return (
-    <main className=' pb-4'>
+    <main className=" pb-4">
       <MoveToTop />
-      <section className='mint' id='mint'>
-        <div className='container'>
+      <section className="mint" id="mint">
+        <div className="container">
           <Mint />
         </div>
       </section>
@@ -23,25 +23,25 @@ function Home() {
           Spirits <br /> Of <span className='text-white'>Africa</span>
         </h1>
       </section> */}
-      <section id='collections'>
+      <section id="collections">
         <Collections />
       </section>
-      <section className='container slider-section'>
-        <div className='row'>
-          <div className='col-sm-2 col-xs-12'></div>
-          <div className='col-sm-10 col-xs-12'>
+      <section className="container slider-section">
+        <div className="row">
+          <div className="col-sm-2 col-xs-12"></div>
+          <div className="col-sm-10 col-xs-12">
             <SimpleSlider Component={Item} data={sliderData} />
           </div>
         </div>
       </section>
-      <section className='container home-button mb-4'>
-        <div className='row'>
-          <div className='col-sm-1  '>
-            <div className='home-buttom-icon'>
+      <section className="container home-button mb-4">
+        <div className="row">
+          <div className="col-sm-1  ">
+            <div className="home-buttom-icon mb-3">
               <Icon />
             </div>
           </div>
-          <div className='col-sm-11  goal'>
+          <div className="col-sm-11  goal">
             <p>
               Spirits of Africa is an NFT project inspired by bringing Africa
               closer to the world by showcasing African mythology. SoA was
@@ -72,10 +72,10 @@ function Home() {
         </div>
       </section>
 
-      <section id='explore' className='container'>
+      <section id="explore" className="container">
         <Explore />
       </section>
-      <section className='my-4' id='about'>
+      <section className="my-4" id="about">
         <About />
       </section>
     </main>

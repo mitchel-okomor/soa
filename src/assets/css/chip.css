@@ -1,8 +1,9 @@
 .soa-text-icon {
+  font-family: 'Zilap Africa';
   background-color: var(--primary-color);
   padding: 8px 6px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 30px;
   border-radius: 50%;
 }

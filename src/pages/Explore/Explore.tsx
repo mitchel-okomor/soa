@@ -2,14 +2,18 @@ import React from 'react';
 //import { Link } from 'react-router-dom';
 
 function Explore() {
+
+	
+	
+
   return (
     <div>
-      <div className='roadmap mt-4'>
-        <h2 className='roadmap-header mb-4'>ROADMAP</h2>
-        <div className=' mt-3'>
-          <div className='row'>
-            <div className='col-sm-1'></div>
-            <div className='col-sm-11 roadmap-contents journey'>
+      <div className="roadmap mt-4">
+        <h2 className="roadmap-header mb-4">ROADMAP</h2>
+        <div className=" mt-3">
+          <div className="row">
+            <div className="col-sm-1"></div>
+            <div className="col-sm-11 roadmap-contents journey">
               <h3> Spirits of Africa - The Journey</h3>
               <p>
                 The future is brighter than ever for the African youths. In this
@@ -20,10 +24,12 @@ function Explore() {
               </p>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-sm-1'></div>
-            <div className='col-sm-11 roadmap-contents'>
-              <h3> Phase 1: "Our Humble Beginning"</h3>
+          <div className="row">
+            <div className="col-sm-1"></div>
+            <div className="col-sm-11 roadmap-contents">
+              <h3>
+                <b>Phase 1:</b> "Our Humble Beginning"
+              </h3>
               <p>
                 Finally, we are tired of it all, tired of our histories not
                 being represented rightly, tired of it being stolen from us and
@@ -38,11 +44,13 @@ function Explore() {
             </div>
           </div>
 
-          <div className='row'>
-            <div className='col-sm-1'></div>
+          <div className="row">
+            <div className="col-sm-1"></div>
 
-            <div className='col-sm-11 roadmap-contents'>
-              <h3> Phase 2: "Walking With The Spirits"</h3>
+            <div className="col-sm-11 roadmap-contents">
+              <h3>
+                <b>Phase 2:</b> "Walking With The Spirits"
+              </h3>
               <p>
                 During this time, the whitelists will be full, presale and
                 public launch will be scheduled, mint prices, project details
@@ -54,11 +62,13 @@ function Explore() {
               </p>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-sm-1'></div>
+          <div className="row">
+            <div className="col-sm-1"></div>
 
-            <div className='col-sm-11 roadmap-contents'>
-              <h3> Phase 3: "As The Spirits Leads"</h3>
+            <div className="col-sm-11 roadmap-contents">
+              <h3>
+                <b>Phase 3:</b> "As The Spirits Leads"
+              </h3>
               <p>
                 After everything is prepared by the Team, minting commences! We
                 will first allow the Founders mint to ensure everything is under
@@ -72,10 +82,10 @@ function Explore() {
             </div>
           </div>
 
-          <div className='row'>
-            <div className='col-sm-1'></div>
+          <div className="row">
+            <div className="col-sm-1"></div>
 
-            <div className='col-sm-11 roadmap-contents benefits'>
+            <div className="col-sm-11 roadmap-contents benefits">
               <h3>Post Mint Benefits:</h3>
               <p>
                 After minting, Shango Holders will have access to secured
@@ -85,11 +95,13 @@ function Explore() {
             </div>
           </div>
 
-          <div className='row'>
-            <div className='col-sm-1'></div>
+          <div className="row">
+            <div className="col-sm-1"></div>
 
-            <div className='col-sm-11 roadmap-contents'>
-              <h3> Phase 4: "I Am A God"</h3>
+            <div className="col-sm-11 roadmap-contents">
+              <h3>
+                <b>Phase 4:</b> "I Am A God"
+              </h3>
               <p>
                 After all 3,333 Sango Collection is minted out, then we will
                 begin to roll out premium artwork for different African gods.
@@ -99,11 +111,14 @@ function Explore() {
               </p>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-sm-1'></div>
+          <div className="row">
+            <div className="col-sm-1"></div>
 
-            <div className='col-sm-11 roadmap-contents'>
-              <h3> Phase 5: "A New Spirit"</h3>
+            <div className="col-sm-11 roadmap-contents">
+              <h3>
+                {' '}
+                <b>Phase 5:</b> "A New Spirit"
+              </h3>
               <p>
                 As we continue to equip ourselves with knowledge about
                 Blockchain Technology, as we continue to empower ourselves and
@@ -112,11 +127,14 @@ function Explore() {
               </p>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-sm-1'></div>
+          <div className="row">
+            <div className="col-sm-1"></div>
 
-            <div className='col-sm-11 roadmap-contents'>
-              <h3> Phase 6: "Dining With The Spirits"</h3>
+            <div className="col-sm-11 roadmap-contents">
+              <h3>
+                {' '}
+                <b>Phase 6:</b> "Dining With The Spirits"
+              </h3>
               <p>
                 This phase, we look back and we can boldly say that we have
                 earned the right to dine with the Spirits Of Africa. This will
@@ -125,11 +143,14 @@ function Explore() {
               </p>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-sm-1'></div>
+          <div className="row">
+            <div className="col-sm-1"></div>
 
-            <div className='col-sm-11 roadmap-contents'>
-              <h3> Phase 7: "One With The Spirits"</h3>
+            <div className="col-sm-11 roadmap-contents">
+              <h3>
+                {' '}
+                <b>Phase 7:</b> "One With The Spirits"
+              </h3>
               <p>
                 We've been together for long, we've been able to spread all over
                 Africa, now we identify as One With The Spirit, creating a big
@@ -139,11 +160,14 @@ function Explore() {
               </p>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-sm-1'></div>
+          <div className="row">
+            <div className="col-sm-1"></div>
 
-            <div className='col-sm-11 roadmap-contents'>
-              <h3> Phase 8: "The Spirit Abides With Us"</h3>
+            <div className="col-sm-11 roadmap-contents">
+              <h3>
+                {' '}
+                <b>Phase 8:</b> "The Spirit Abides With Us"
+              </h3>
               <p>
                 We continue to roll out premium artworks, equip ourselves with
                 more knowledge, expand our base both online and offline, impact
@@ -151,11 +175,13 @@ function Explore() {
               </p>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-sm-1'></div>
+          <div className="row">
+            <div className="col-sm-1"></div>
 
-            <div className='col-sm-11 roadmap-contents'>
-              <h3> Phase 9: "Into The Spirit Land"</h3>
+            <div className="col-sm-11 roadmap-contents">
+              <h3>
+                <b>Phase 9:</b> "Into The Spirit Land"
+              </h3>
               <p>
                 At this junction, we know we have come a long way and we are
                 satisfied with all we have accomplished as a community, as an
