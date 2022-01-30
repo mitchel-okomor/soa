@@ -48,7 +48,9 @@ function Home() {
               started by a small group of Africans want to educate the world
               with stories about Africa mythology.
             </p>
-            <h3>Goals:</h3>
+            <h3>
+              <b>Goals:</b>
+            </h3>
             <p>
               African myth is so interesting but does not get the recognition it
               deserves. Our goal at SoA is to make give the whole world the
