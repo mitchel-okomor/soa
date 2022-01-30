@@ -23,7 +23,7 @@ function Navbar() {
           <span className="toggler-icon bottom-bar"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav m-auto mb-2 mb-lg-0">
             <li className="nav-item mx-2 ">
               <a className="nav-link " href="#mint">
                 About
