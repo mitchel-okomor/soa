@@ -88,8 +88,25 @@ body {
     margin-top: 0rem !important;
     line-height: 1.4rem !important;
   }
+  .spirit-intro {
+    font-weight: 700;
+    font-size: 4rem !important;
+    line-height: 1.1rem !important;
+    padding-left: 0rem !important;
+  }
+  .spirit-intro2 {
+    font-size: 6rem !important;
+    line-height: 10rem !important;
+    font-weight: 700;
+  }
   .spirit-intro span {
     font-size: 25vw !important;
+  }
+  .home-slider-item {
+    height: 110px !important;
+    width: 120px !important;
+    border-radius: 10px;
+    background-color: transparent;
   }
 }
 @media only screen and (max-width: 575px) {
