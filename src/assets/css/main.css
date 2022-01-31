@@ -64,10 +64,30 @@ body {
     width: 80%;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 796px) {
   body {
   }
-
+  .sango .back-text {
+    top: 3.9rem !important;
+    font-size: 5rem !important;
+  }
+  .sango-card {
+    font-size: 0.5rem !important;
+    width: 4.5rem !important;
+    height: 5rem !important;
+  }
+  .sango-card h2 {
+    font-weight: 600;
+    font-size: 1.2rem !important;
+    margin-bottom: 0rem !important;
+    line-height: 1.9rem !important;
+  }
+  .sango-card p {
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin-top: 0rem !important;
+    line-height: 1.4rem !important;
+  }
   .spirit-intro span {
     font-size: 25vw !important;
   }
@@ -287,6 +307,7 @@ h6 {
 
 p {
   font-size: large;
+  line-height: 30px;
 }
 
 a,
@@ -620,4 +641,11 @@ p {
 .faq-header,
 .team-header {
   font-family: 'zilap africa';
+}
+.utility ol {
+  color: var(--primary-color);
+  font-size: large;
+}
+.utility ol li {
+  line-height: 30px;
 }

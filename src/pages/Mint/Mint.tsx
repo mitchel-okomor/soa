@@ -22,7 +22,7 @@ function Mint() {
             />
           </a>
           <a
-            href="https://www.twitter.com/Spirits0fAfrica"
+            href="https://discord.gg/jUPshgNuzK"
             rel="noreferrer"
             target="_blank"
           >

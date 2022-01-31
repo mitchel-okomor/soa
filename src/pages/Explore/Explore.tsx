@@ -56,7 +56,7 @@ function Explore() {
           </div>
 
           <div className="row">
-            <div className="col-sm-6 roadmap-contents">
+            <div className="col-sm-12 roadmap-contents">
               <h3>
                 <b>Phase 3:</b> "As The Spirits Leads"
               </h3>
