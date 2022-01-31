@@ -75,6 +75,37 @@ body {
 @media only screen and (max-width: 575px) {
   body {
   }
+  .sango .back-text {
+    position: absolute;
+    top: 3.5rem !important;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+    font-family: 'zilap africa';
+    color: var(--primary-color);
+    font-size: 3rem !important;
+    font-weight: 800;
+  }
+  .sango-card {
+    margin-right: 0.8rem !important;
+    font-size: 0.5rem !important;
+    width: 2.5rem !important;
+    height: 3rem !important;
+    display: grid;
+    place-items: top !important;
+  }
+  .sango-card h2 {
+    font-weight: 600;
+    font-size: 0.5rem !important;
+    margin-bottom: 0rem !important;
+    line-height: 1.3rem !important;
+  }
+  .sango-card p {
+    font-weight: 500;
+    font-size: 0.5rem;
+    margin-top: 0rem !important;
+    line-height: 0.7rem !important;
+  }
 }
 @media only screen and (max-width: 479px) {
   body {
@@ -411,16 +442,16 @@ button {
 }
 
 .home-slider-item {
-  height: 210px;
-  width: 210px;
+  height: 240px;
+  width: 240px;
   border-radius: 10px;
   background-color: transparent;
 }
 .home-slider-item img {
   width: 100%;
 }
-.slider-section {
-  margin-top: 50px;
+#collections {
+  margin-bottom: 7rem;
 }
 .home-button {
   margin-top: 50px;
@@ -532,9 +563,6 @@ p {
   margin-top: 5rem;
 }
 
-.faq {
-  padding: 2%;
-}
 .faq-card {
   border-radius: 5px;
   margin-bottom: 10px !important;
@@ -569,9 +597,6 @@ p {
   margin-left: 0.8rem;
   margin-right: 0.8rem;
 }
-.faq-cards {
-  margin: 30px;
-}
 
 .faq-card .add-btn {
   background-color: transparent;
@@ -590,4 +615,9 @@ p {
 }
 .hide {
   display: none;
+}
+.about-header,
+.faq-header,
+.team-header {
+  font-family: 'zilap africa';
 }

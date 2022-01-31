@@ -93,8 +93,8 @@ function Faq() {
   return (
     <div className="faq container">
       <div className="faq-cards">
-        <h2>
-          <b>FAQ</b>
+        <h2 className="faq-header">
+          <b>FAQs</b>
         </h2>
         <div>
           <FaqCards />

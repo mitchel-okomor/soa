@@ -6,7 +6,7 @@ import Mint from '../Mint/Mint';
 import { sliderData } from './sliderData';
 import Collections from '../Collections/Collections';
 import Explore from '../Explore/Explore';
-import About from '../About/About';
+import About from '../Team/Team';
 import MoveToTop from '../../components/MoveToTop/ScrollToTop';
 import Faq from '../../pages/Faq/Faq';
 
@@ -24,19 +24,21 @@ function Home() {
           Spirits <br /> Of <span className='text-white'>Africa</span>
         </h1>
       </section> */}
-      <section id="collections">
+      <section id="collections" className="">
         <Collections />
       </section>
-      <section className="container slider-section">
-        <div className="row">
-          <div className="col-sm-2 col-xs-12"></div>
-          <div className="col-sm-10 col-xs-12">
-            <SimpleSlider Component={Item} data={sliderData} />
-          </div>
+      <section className="container slider-section my-5">
+        <div className="">
+          <SimpleSlider Component={Item} data={sliderData} />
         </div>
       </section>
-      <section className="container home-button mb-4">
+      <section className="container home-button my-5" id="about">
         <div className="row">
+          <h2 className="my-4 about-header">
+            {' '}
+            <b>ABOUT</b>
+          </h2>
+
           <div className="col-sm-1  ">
             <div className="home-buttom-icon mb-3">
               <Icon />
@@ -74,7 +76,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section id="faq">
+      <section id="faq" className="my-5">
         <Faq />
       </section>
       <section id="explore" className="container">

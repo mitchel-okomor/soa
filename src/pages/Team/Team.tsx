@@ -1,11 +1,14 @@
 import React from 'react';
 import soa1 from '../../assets/images/soa1.jpeg';
 
-function About() {
+function Team() {
   return (
     <div className="container">
       <div className="our-team">
-        <h3 className="pt-3 text-uppercase text-center">Our Team</h3>
+        <h2 className="pt-3 text-uppercase team-header">
+          {' '}
+          <b>Our Team</b>
+        </h2>
 
         <div className="mt-4 row">
           <div className="col-sm-3 text-center">
@@ -38,4 +41,4 @@ function About() {
   );
 }
 
-export default About;
+export default Team;

@@ -1,5 +1,5 @@
 import Home from "../pages/Home/Home";
-import About from "../pages/About/About";
+import About from "../pages/Team/Team";
 import Mint from "../pages/Mint/Mint";
 import Collections from "../pages/Collections/Collections";
 import Explore from "../pages/Explore/Explore";
