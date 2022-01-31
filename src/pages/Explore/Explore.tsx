@@ -2,19 +2,16 @@ import React from 'react';
 //import { Link } from 'react-router-dom';
 
 function Explore() {
-
-	
-	
-
   return (
     <div>
       <div className="roadmap mt-4">
         <h2 className="roadmap-header mb-4">ROADMAP</h2>
         <div className=" mt-3">
           <div className="row">
-            <div className="col-sm-1"></div>
-            <div className="col-sm-11 roadmap-contents journey">
-              <h3> Spirits of Africa - The Journey</h3>
+            <div className="col-sm-12 roadmap-contents journey">
+              <h3>
+                <b>Spirits of Africa </b>- The Journey
+              </h3>
               <p>
                 The future is brighter than ever for the African youths. In this
                 journey, we will lay out our future plans, concepts, ideas, and
@@ -25,8 +22,8 @@ function Explore() {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-1"></div>
-            <div className="col-sm-11 roadmap-contents">
+            <div className="col-sm-6 roadmap-contents">
+              {' '}
               <h3>
                 <b>Phase 1:</b> "Our Humble Beginning"
               </h3>
@@ -42,12 +39,7 @@ function Explore() {
                 journey ahead.
               </p>
             </div>
-          </div>
-
-          <div className="row">
-            <div className="col-sm-1"></div>
-
-            <div className="col-sm-11 roadmap-contents">
+            <div className="col-sm-6 roadmap-contents">
               <h3>
                 <b>Phase 2:</b> "Walking With The Spirits"
               </h3>
@@ -62,10 +54,9 @@ function Explore() {
               </p>
             </div>
           </div>
-          <div className="row">
-            <div className="col-sm-1"></div>
 
-            <div className="col-sm-11 roadmap-contents">
+          <div className="row">
+            <div className="col-sm-6 roadmap-contents">
               <h3>
                 <b>Phase 3:</b> "As The Spirits Leads"
               </h3>
@@ -83,10 +74,10 @@ function Explore() {
           </div>
 
           <div className="row">
-            <div className="col-sm-1"></div>
-
-            <div className="col-sm-11 roadmap-contents benefits">
-              <h3>Post Mint Benefits:</h3>
+            <div className="col-sm-12 roadmap-contents benefits">
+              <h3>
+                <b>Post Mint Benefits:</b>
+              </h3>
               <p>
                 After minting, Shango Holders will have access to secured
                 Whitelists to upcoming projects and other Africa Youth
@@ -96,9 +87,8 @@ function Explore() {
           </div>
 
           <div className="row">
-            <div className="col-sm-1"></div>
-
-            <div className="col-sm-11 roadmap-contents">
+            <div className="col-sm-6 roadmap-contents">
+              {' '}
               <h3>
                 <b>Phase 4:</b> "I Am A God"
               </h3>
@@ -110,13 +100,9 @@ function Explore() {
                 Empowerment plans will kick off also.
               </p>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-1"></div>
 
-            <div className="col-sm-11 roadmap-contents">
+            <div className="col-sm-6 roadmap-contents">
               <h3>
-                {' '}
                 <b>Phase 5:</b> "A New Spirit"
               </h3>
               <p>
@@ -128,9 +114,8 @@ function Explore() {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-1"></div>
-
-            <div className="col-sm-11 roadmap-contents">
+            <div className="col-sm-6 roadmap-contents">
+              {' '}
               <h3>
                 {' '}
                 <b>Phase 6:</b> "Dining With The Spirits"
@@ -142,11 +127,8 @@ function Explore() {
                 will be shared.
               </p>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-1"></div>
 
-            <div className="col-sm-11 roadmap-contents">
+            <div className="col-sm-6 roadmap-contents">
               <h3>
                 {' '}
                 <b>Phase 7:</b> "One With The Spirits"
@@ -160,10 +142,10 @@ function Explore() {
               </p>
             </div>
           </div>
-          <div className="row">
-            <div className="col-sm-1"></div>
 
-            <div className="col-sm-11 roadmap-contents">
+          <div className="row">
+            <div className="col-sm-6">
+              {' '}
               <h3>
                 {' '}
                 <b>Phase 8:</b> "The Spirit Abides With Us"
@@ -174,11 +156,8 @@ function Explore() {
                 more than the lives of African Youths, A New Collection.
               </p>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-1"></div>
 
-            <div className="col-sm-11 roadmap-contents">
+            <div className="col-sm-6 roadmap-contents">
               <h3>
                 <b>Phase 9:</b> "Into The Spirit Land"
               </h3>

@@ -25,17 +25,17 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">
             <li className="nav-item mx-2 ">
-              <a className="nav-link " href="#mint">
+              <a className="nav-link " href="#about">
                 About
               </a>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link" href="#collections">
+              <a className="nav-link" href="#explore">
                 RoadMap
               </a>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link" href="#explore">
+              <a className="nav-link" href="#faq">
                 FAQ
               </a>
             </li>

@@ -8,6 +8,7 @@ import Collections from '../Collections/Collections';
 import Explore from '../Explore/Explore';
 import About from '../About/About';
 import MoveToTop from '../../components/MoveToTop/ScrollToTop';
+import Faq from '../../pages/Faq/Faq';
 
 function Home() {
   return (
@@ -73,7 +74,9 @@ function Home() {
           </div>
         </div>
       </section>
-
+      <section id="faq">
+        <Faq />
+      </section>
       <section id="explore" className="container">
         <Explore />
       </section>

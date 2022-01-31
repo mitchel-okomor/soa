@@ -160,6 +160,57 @@ body {
   }
 }
 
+@media only screen and (max-width: 320px) {
+  .spirit-intro {
+    font-weight: 700;
+    font-size: 2.8rem !important;
+    line-height: 1.1rem !important;
+    padding-left: 0rem !important;
+  }
+  .spirit-intro2 {
+    font-size: 2.8rem !important;
+    line-height: 6rem !important;
+    font-weight: 700;
+  }
+  .home-slider-item {
+    height: 110px !important;
+    width: 135px !important;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  .sango .back-text {
+    position: absolute;
+    top: 2rem !important;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+    font-family: 'zilap africa';
+    color: var(--primary-color);
+    font-size: 2rem !important;
+    font-weight: 800;
+  }
+  .sango-card {
+    margin-right: 0.8rem !important;
+    font-size: 0.5rem !important;
+    width: 2.5rem !important;
+    height: 3rem !important;
+    display: grid;
+    place-items: top !important;
+  }
+  .sango-card h2 {
+    font-weight: 600;
+    font-size: 0.5rem !important;
+    margin-bottom: 0rem !important;
+    line-height: 1.3rem !important;
+  }
+  .sango-card p {
+    font-weight: 500;
+    font-size: 0.5rem;
+    margin-top: 0rem !important;
+    line-height: 0.7rem !important;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -479,4 +530,64 @@ p {
 }
 #explore {
   margin-top: 5rem;
+}
+
+.faq {
+  padding: 2%;
+}
+.faq-card {
+  border-radius: 5px;
+  margin-bottom: 10px !important;
+}
+.faq-card > div {
+  padding: 10px;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.faq-card .card-body {
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.faq-card hr {
+  border: solid 1px #e5e5e5;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+.faq-cards {
+  margin: 30px;
+}
+
+.faq-card .add-btn {
+  background-color: transparent;
+  font-size: xx-large;
+  color: var(--primary-color);
+  border: none;
+}
+.faq-card .card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.faq-card .card-header > h4 {
+  padding: 2px;
+  cursor: pointer;
+  width: 100%;
+}
+.hide {
+  display: none;
 }
