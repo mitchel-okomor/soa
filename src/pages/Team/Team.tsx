@@ -21,8 +21,14 @@ function Team() {
               >
                 <img className="head-shot-image" src={soa1} alt="headshot" />
               </LazyLoad>
-              <figcaption className="my-2 text-uppercase">John Bull</figcaption>
-              <p className="text-uppercase">Designer</p>
+              <figcaption className="my-2 text-uppercase">
+                Peter Ewulum
+              </figcaption>
+              <p className="">
+                Peter is the team lead for this project, with 8 years of
+                experience in Graphic Design, Digital Illustration, and
+                Photography.
+              </p>
             </figure>
           </div>
           <div data-aos="zoom-in-left" className="col-sm-3 text-center">
