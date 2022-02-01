@@ -1,7 +1,7 @@
 import React from 'react';
 
 function MoveToTop() {
-  let mybutton: any = document.getElementById('move-to-top');
+  let mybutton = document.getElementById('move-to-top') as HTMLElement;
 
   // When the user scrolls down 20px from the top of the document, show the button
   window.onscroll = function () {
@@ -26,8 +26,8 @@ function MoveToTop() {
   }
 
   return (
-    <button onClick={topFunction} id='move-to-top' className='move-to-top'>
-      <i className='fa fa-angle-up' style={{ fontSize: '2rem' }}></i>
+    <button onClick={topFunction} id="move-to-top" className="move-to-top">
+      <i className="fa fa-angle-up" style={{ fontSize: '2rem' }}></i>
     </button>
   );
 }
