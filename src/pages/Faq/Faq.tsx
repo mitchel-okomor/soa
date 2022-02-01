@@ -69,7 +69,6 @@ function Faq() {
             className="add-btn"
             onClick={(e) => {
               const el: any = e.target;
-              console.log(el.innerText);
               if (el.innerText === '+') {
                 el.innerText = '-';
               } else {

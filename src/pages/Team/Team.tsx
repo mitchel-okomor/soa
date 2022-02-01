@@ -14,19 +14,19 @@ function Team() {
           <div className="col-sm-3 text-center">
             <figure className="head-shot ">
               <img className="head-shot-image" src={soa1} alt="headshot" />
-              <figcaption className="my-2">Developer</figcaption>
+              <figcaption className="my-2">Designer</figcaption>
             </figure>
           </div>
           <div className="col-sm-3 text-center">
             <figure className="head-shot ">
               <img className="head-shot-image" src={soa1} alt="headshot" />
-              <figcaption className="my-2">Developer</figcaption>
+              <figcaption className="my-2">Software Developer</figcaption>
             </figure>
           </div>
           <div className="col-sm-3 text-center">
             <figure className="head-shot ">
               <img className="head-shot-image" src={soa1} alt="headshot" />
-              <figcaption className="my-2">Developer</figcaption>
+              <figcaption className="my-2">Animator</figcaption>
             </figure>
           </div>
           <div className="col-sm-3 text-center">
