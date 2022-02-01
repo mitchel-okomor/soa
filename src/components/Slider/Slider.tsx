@@ -1,5 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
+import LazyLoad from 'react-lazyload';
+import Spinner from '../../components/Spinner/Spinner';
 
 type SliderProp = {
   Component: any;
@@ -29,7 +31,16 @@ export default function SimpleSlider({ Component, data }: SliderProp) {
   return (
     <Slider {...settings}>
       {data.map((item: any) => {
-        return <Component data={item} key={item.id} />;
+        return (
+          <LazyLoad
+            key={item.id}
+            height={100}
+            offset={[-100, 100]}
+            placeholder={<Spinner />}
+          >
+            <Component data={item} key={item.id} />
+          </LazyLoad>
+        );
       })}
     </Slider>
   );

@@ -1,5 +1,7 @@
 import React from 'react';
 import soa1 from '../../assets/images/soa1.jpeg';
+import LazyLoad from 'react-lazyload';
+import Spinner from '../../components/Spinner/Spinner';
 
 function Team() {
   return (
@@ -13,25 +15,49 @@ function Team() {
         <div className="mt-4 row">
           <div className="col-sm-3 text-center">
             <figure className="head-shot ">
-              <img className="head-shot-image" src={soa1} alt="headshot" />
+              <LazyLoad
+                height={100}
+                offset={[-100, 100]}
+                placeholder={<Spinner />}
+              >
+                <img className="head-shot-image" src={soa1} alt="headshot" />
+              </LazyLoad>
               <figcaption className="my-2">Designer</figcaption>
             </figure>
           </div>
           <div className="col-sm-3 text-center">
             <figure className="head-shot ">
-              <img className="head-shot-image" src={soa1} alt="headshot" />
+              <LazyLoad
+                height={100}
+                offset={[-100, 100]}
+                placeholder={<Spinner />}
+              >
+                <img className="head-shot-image" src={soa1} alt="headshot" />
+              </LazyLoad>{' '}
               <figcaption className="my-2">Software Developer</figcaption>
             </figure>
           </div>
           <div className="col-sm-3 text-center">
             <figure className="head-shot ">
-              <img className="head-shot-image" src={soa1} alt="headshot" />
+              <LazyLoad
+                height={100}
+                offset={[-100, 100]}
+                placeholder={<Spinner />}
+              >
+                <img className="head-shot-image" src={soa1} alt="headshot" />
+              </LazyLoad>{' '}
               <figcaption className="my-2">Animator</figcaption>
             </figure>
           </div>
           <div className="col-sm-3 text-center">
             <figure className="head-shot ">
-              <img className="head-shot-image" src={soa1} alt="headshot" />
+              <LazyLoad
+                height={100}
+                offset={[-100, 100]}
+                placeholder={<Spinner />}
+              >
+                <img className="head-shot-image" src={soa1} alt="headshot" />
+              </LazyLoad>{' '}
               <figcaption className="my-2"> Developer</figcaption>
             </figure>
           </div>
