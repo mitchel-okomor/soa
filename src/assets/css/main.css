@@ -25,9 +25,7 @@
 *::before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
-
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -39,19 +37,19 @@ input::-webkit-inner-spin-button {
 input[type='number'] {
   -moz-appearance: textfield;
 }
-
+html,
 body {
   height: 100%;
-  width: 100%;
   font-family: 'Zilap Africa';
+}
+
+body {
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 1) 52%,
     rgba(19, 19, 19, 0.979540278402607) 100%
   );
-}
-
-body {
+  line-height: 24px;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -96,6 +94,7 @@ body {
   .spirit-intro {
     font-weight: 700;
     font-size: 4rem !important;
+    line-height: 1.1rem !important;
     padding-left: 0rem !important;
   }
   .spirit-intro2 {
@@ -163,6 +162,7 @@ body {
   .spirit-intro {
     font-weight: 700;
     font-size: 4rem !important;
+    line-height: 1.1rem !important;
     padding-left: 0rem !important;
   }
   .spirit-intro2 {
@@ -172,13 +172,13 @@ body {
   }
   .sango .back-text {
     position: absolute;
-    top: 4.5rem !important;
+    top: 3.5rem !important;
     text-align: center;
     width: 100%;
     z-index: -1;
     font-family: 'zilap africa';
     color: var(--primary-color);
-    font-size: 4.5rem !important;
+    font-size: 3rem !important;
     font-weight: 800;
   }
   .sango .front-cards {
@@ -243,6 +243,7 @@ body {
   }
   .spirit-intro2 {
     font-size: 2.8rem !important;
+    line-height: 6rem !important;
     font-weight: 700;
   }
   .home-slider-item {
@@ -599,8 +600,10 @@ p {
   margin-top: 0;
   padding-top: 0;
 }
-.our-team > p {
+.our-team p {
   color: var(--primary-color);
+  font-size: 12px !important;
+  line-height: 17px;
 }
 
 .head-shot-image {
