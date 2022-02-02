@@ -18,7 +18,7 @@ function Mint() {
             target="_blank"
           >
             <RiTelegramLine
-              style={{ fontSize: '3rem', color: 'var(--primary-color)' }}
+              style={{ fontSize: '2.5rem', color: 'var(--primary-color)' }}
             />
           </a>
           <a
@@ -29,7 +29,7 @@ function Mint() {
             {' '}
             <RiDiscordLine
               style={{
-                fontSize: '3rem',
+                fontSize: '2.5rem',
                 color: 'var(--primary-color)',
                 marginLeft: '1rem',
               }}
@@ -42,7 +42,7 @@ function Mint() {
           >
             <RiTwitterLine
               style={{
-                fontSize: '3rem',
+                fontSize: '2.5rem',
                 color: 'var(--primary-color)',
                 marginLeft: '0.3rem',
               }}

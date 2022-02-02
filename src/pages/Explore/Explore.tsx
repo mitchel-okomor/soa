@@ -144,7 +144,7 @@ function Explore() {
           </div>
 
           <div className="row">
-            <div className="col-sm-6">
+            <div className="col-sm-6 roadmap-contents">
               {' '}
               <h3>
                 {' '}

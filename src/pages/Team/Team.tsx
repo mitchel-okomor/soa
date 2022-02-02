@@ -40,8 +40,13 @@ function Team() {
               >
                 <img className="head-shot-image" src={soa1} alt="headshot" />
               </LazyLoad>{' '}
-              <figcaption className="my-2 text-uppercase">John Bull</figcaption>
-              <p className="text-uppercase">Software Developer</p>{' '}
+              <figcaption className="my-2 text-uppercase">
+                MaDE in Africa
+              </figcaption>
+              <p className="">
+                Content contributor to the Project, with over 4 years experience
+                in Branding and providing Design Solutions.
+              </p>{' '}
             </figure>
           </div>
           <div data-aos="zoom-in-right" className="col-sm-3 text-center">
