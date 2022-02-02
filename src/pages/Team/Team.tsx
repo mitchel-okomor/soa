@@ -12,7 +12,7 @@ function Team() {
         </h2>
 
         <div className="mt-4 row">
-          <div data-aos="zoom-in-right" className="col-sm-3 text-center">
+          <div className="col-sm-3 text-center">
             <figure className="head-shot ">
               <LazyLoad
                 height={100}
@@ -31,7 +31,7 @@ function Team() {
               </p>
             </figure>
           </div>
-          <div data-aos="zoom-in-left" className="col-sm-3 text-center">
+          <div className="col-sm-3 text-center">
             <figure className="head-shot ">
               <LazyLoad
                 height={100}
@@ -49,7 +49,7 @@ function Team() {
               </p>{' '}
             </figure>
           </div>
-          <div data-aos="zoom-in-right" className="col-sm-3 text-center">
+          <div className="col-sm-3 text-center">
             <figure className="head-shot ">
               <LazyLoad
                 height={100}
@@ -62,7 +62,7 @@ function Team() {
               <p className="text-uppercase">Animator</p>
             </figure>
           </div>
-          <div data-aos="zoom-in-left" className="col-sm-3 text-center">
+          <div className="col-sm-3 text-center">
             <figure className="head-shot ">
               <LazyLoad
                 height={100}

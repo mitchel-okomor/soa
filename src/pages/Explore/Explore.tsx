@@ -23,7 +23,6 @@ function Explore() {
           </div>
           <div className="row">
             <div className="col-sm-6 roadmap-contents">
-              {' '}
               <h3>
                 <b>Phase 1:</b> "Our Humble Beginning"
               </h3>

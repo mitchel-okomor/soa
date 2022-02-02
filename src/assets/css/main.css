@@ -20,6 +20,7 @@
   --accent-color: #e6fff1;
   --text-color: #fff;
 }
+
 *,
 *::after,
 *::before {
@@ -40,7 +41,11 @@ input[type='number'] {
 html,
 body {
   height: 100%;
+  width: 100%;
   font-family: 'Zilap Africa';
+}
+body > div {
+  overflow-x: hidden;
 }
 
 body {
@@ -149,6 +154,7 @@ body {
 }
 @media only screen and (max-width: 479px) {
   body {
+    overflow-x: hidden;
   }
   .hero-section {
     margin-top: 20px !important;
