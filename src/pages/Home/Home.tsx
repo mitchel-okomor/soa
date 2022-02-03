@@ -28,15 +28,15 @@ function Home() {
       <section id="collections" className="">
         <Collections />
       </section>
-      <section className="container slider-section my-5">
+      <section className="container slider-section">
         <div className="">
           <SimpleSlider Component={Item} data={sliderData} />
         </div>
       </section>
-      <section className="container home-button my-5" id="about">
+      <section className="container  " id="about">
         <About />
       </section>
-      <section id="faq" className="my-5">
+      <section id="faq" className="">
         <Faq />
       </section>
       <section id="explore" className="container">
@@ -45,7 +45,7 @@ function Home() {
       <section className="container">
         <Utility />
       </section>
-      <section className="my-4" id="about">
+      <section className="" id="about">
         <Team />
       </section>
     </main>

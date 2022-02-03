@@ -358,6 +358,7 @@ figcaption {
   color: #6c757d;
   font-weight: 800;
 }
+
 .navbar {
   background-color: transparent !important;
   color: var(--text-color) !important;
@@ -445,6 +446,9 @@ figcaption {
 .pagebtn-2:hover {
   background-color: var(--secondary-color);
   color: var(--accent-color);
+}
+main > section {
+  margin-top: 3rem;
 }
 
 .mint {
