@@ -18,7 +18,7 @@ function About() {
           Spirits of Africa is an NFT project inspired by bringing Africa closer
           to the world by showcasing African mythology. SoA was started by a
           small group of Africans that want to educate the world with stories
-          about Africa mythology.
+          about African mythology.
         </p>
         <h3>
           <b>Goals:</b>
