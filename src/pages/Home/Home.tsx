@@ -53,6 +53,17 @@ function Home() {
       <section id="explore" className="container">
         <Explore />
       </section>
+      <section className="d-flex justify-content-center discord-button">
+        <a
+          href="https://discord.gg/jUPshgNuzK"
+          rel="noreferrer"
+          target="_blank"
+          className="btn join-discord"
+          data-aos="flip-right"
+        >
+          Join Our Discord
+        </a>
+      </section>
       <section className="container">
         <Utility />
       </section>
