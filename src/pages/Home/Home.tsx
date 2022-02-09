@@ -50,7 +50,7 @@ function Home() {
           className="btn join-discord"
           data-aos="flip-right"
         >
-          Join our Discord
+          Join Discord
         </a>
       </section>
       <section className="container">
