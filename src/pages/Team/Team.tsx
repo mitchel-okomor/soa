@@ -13,7 +13,7 @@ function Team() {
 
         <div className="mt-4 row">
           <div className="col-sm-3 text-center">
-            <figure className="head-shot ">
+            <figure data-aos="zoom-in-right" className="head-shot ">
               <LazyLoad
                 height={100}
                 offset={[-100, 100]}
@@ -32,7 +32,7 @@ function Team() {
             </figure>
           </div>
           <div className="col-sm-3 text-center">
-            <figure className="head-shot ">
+            <figure data-aos="zoom-in-left" className="head-shot ">
               <LazyLoad
                 height={100}
                 offset={[-100, 100]}
@@ -50,7 +50,7 @@ function Team() {
             </figure>
           </div>
           <div className="col-sm-3 text-center">
-            <figure className="head-shot ">
+            <figure data-aos="zoom-in-right" className="head-shot ">
               <LazyLoad
                 height={100}
                 offset={[-100, 100]}
@@ -68,7 +68,7 @@ function Team() {
             </figure>
           </div>
           <div className="col-sm-3 text-center">
-            <figure className="head-shot ">
+            <figure data-aos="zoom-in-left" className="head-shot ">
               <LazyLoad
                 height={100}
                 offset={[-100, 100]}

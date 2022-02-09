@@ -447,6 +447,7 @@ figcaption {
   background-color: var(--secondary-color);
   color: var(--accent-color);
 }
+
 main > section {
   margin-top: 7rem;
 }
@@ -695,4 +696,15 @@ p {
 }
 .utility ol li {
   line-height: 30px;
+}
+.join-discord {
+  background-color: var(--primary-color);
+  color: #000000;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.join-discord:hover {
+  background-color: #fff;
+  color: var(--primary-color);
 }
