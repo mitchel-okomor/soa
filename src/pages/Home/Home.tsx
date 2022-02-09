@@ -33,15 +33,6 @@ function Home() {
           <SimpleSlider Component={Item} data={sliderData} />
         </div>
       </section>
-      <section className="container  " id="about">
-        <About />
-      </section>
-      <section id="faq" className="">
-        <Faq />
-      </section>
-      <section id="explore" className="container">
-        <Explore />
-      </section>
       <section className="d-flex justify-content-center discord-button">
         <a
           href="https://discord.gg/jUPshgNuzK"
@@ -50,8 +41,17 @@ function Home() {
           className="btn join-discord"
           data-aos="flip-right"
         >
-          Join Discord
+          Join Our Discord
         </a>
+      </section>
+      <section className="container  " id="about">
+        <About />
+      </section>
+      <section id="faq" className="">
+        <Faq />
+      </section>
+      <section id="explore" className="container">
+        <Explore />
       </section>
       <section className="container">
         <Utility />

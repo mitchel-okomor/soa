@@ -4,7 +4,7 @@ import Icon from '../../components/SOAIcon/Icon';
 function About() {
   return (
     <div className="row">
-      <h2 className="my-4 about-header">
+      <h2 className="mb-4 about-header">
         <b>ABOUT</b>
       </h2>
 
